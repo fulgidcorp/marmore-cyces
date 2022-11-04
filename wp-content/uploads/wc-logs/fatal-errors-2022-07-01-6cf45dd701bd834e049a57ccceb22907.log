@@ -1,0 +1,240 @@
+2022-07-01T03:17:03+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T03:17:05+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T05:53:58+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T05:54:00+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T06:11:47+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T06:11:49+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T08:14:25+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T08:14:27+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T10:26:09+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T10:26:11+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T11:16:10+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T11:16:12+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T13:14:55+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T13:14:56+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T14:53:38+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T14:53:39+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T17:39:42+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T17:39:44+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T18:54:15+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T18:54:16+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T19:03:27+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T19:03:29+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T20:15:29+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
+2022-07-01T20:15:30+00:00 CRITICAL Uncaught wfWAFStorageFileException: Unable to open /var/www/marmore/wp-content/wflogs/attack-data.php for reading and writing. in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php:1049
+Stack trace:
+#0 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(435): wfWAFAttackDataStorageFileEngine->open()
+#1 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(610): wfWAFStorageFile->open()
+#2 /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(564): wfWAFStorageFile->fetchConfigData()
+#3 /var/www/marmore/wp-content/plugins/wordfence/lib/rest-api/wfRESTConfigController.php(71): wfWAFStorageFile->getConfig()
+#4 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(1140): wfRESTConfigController->getConfig()
+#5 /var/www/marmore/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#6 /var/www/marmore/wp-in in /var/www/marmore/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php on line 1049
+
